@@ -125,8 +125,8 @@ export default class JhiUserManagementEdit extends Vue {
   }
 
   private getMessageFromHeader(res: any): any {
-    return this.$t(res.headers['x-fitcloudeadminapp-alert'], {
-      param: decodeURIComponent(res.headers['x-fitcloudeadminapp-params'].replace(/\+/g, ' ')),
+    return this.$t(res.headers['x-fitcloudadminapp-alert'], {
+      param: decodeURIComponent(res.headers['x-fitcloudadminapp-params'].replace(/\+/g, ' ')),
     });
   }
 }

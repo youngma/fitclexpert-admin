@@ -1,4 +1,4 @@
-package com.fitcloude.app;
+package com.fitcloud.app;
 
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
 
@@ -13,16 +13,16 @@ class ArchTest {
     void servicesAndRepositoriesShouldNotDependOnWebLayer() {
         JavaClasses importedClasses = new ClassFileImporter()
             .withImportOption(ImportOption.Predefined.DO_NOT_INCLUDE_TESTS)
-            .importPackages("com.fitcloude.app");
+            .importPackages("com.fitcloud.app");
 
         noClasses()
             .that()
-            .resideInAnyPackage("com.fitcloude.app.service..")
+            .resideInAnyPackage("com.fitcloud.app.service..")
             .or()
-            .resideInAnyPackage("com.fitcloude.app.repository..")
+            .resideInAnyPackage("com.fitcloud.app.repository..")
             .should()
             .dependOnClassesThat()
-            .resideInAnyPackage("..com.fitcloude.app.web..")
+            .resideInAnyPackage("..com.fitcloud.app.web..")
             .because("Services and repositories should not depend on web layer")
             .check(importedClasses);
     }

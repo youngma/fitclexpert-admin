@@ -1,11 +1,11 @@
-package com.fitcloude.app.config.timezone;
+package com.fitcloud.app.config.timezone;
 
 import static java.lang.String.format;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.repository.timezone.DateTimeWrapper;
-import com.fitcloude.app.repository.timezone.DateTimeWrapperRepository;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.repository.timezone.DateTimeWrapper;
+import com.fitcloud.app.repository.timezone.DateTimeWrapperRepository;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import org.junit.jupiter.api.BeforeEach;

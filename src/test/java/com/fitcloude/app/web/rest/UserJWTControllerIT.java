@@ -1,4 +1,4 @@
-package com.fitcloude.app.web.rest;
+package com.fitcloud.app.web.rest;
 
 import static org.hamcrest.Matchers.emptyString;
 import static org.hamcrest.Matchers.is;
@@ -9,10 +9,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.repository.UserRepository;
-import com.fitcloude.app.web.rest.vm.LoginVM;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.repository.UserRepository;
+import com.fitcloud.app.web.rest.vm.LoginVM;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

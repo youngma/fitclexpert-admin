@@ -1,4 +1,4 @@
-package com.fitcloude.app.web.rest.errors;
+package com.fitcloud.app.web.rest.errors;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

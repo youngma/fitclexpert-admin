@@ -78,8 +78,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.put.resolves({
         headers: {
-          'x-fitcloudeadminapp-alert': '',
-          'x-fitcloudeadminapp-params': '',
+          'x-fitcloudadminapp-alert': '',
+          'x-fitcloudadminapp-params': '',
         },
       });
       userManagementEdit.userAccount = { id: 123, authorities: [] };
@@ -97,8 +97,8 @@ describe('UserManagementEdit Component', () => {
       // GIVEN
       axiosStub.post.resolves({
         headers: {
-          'x-fitcloudeadminapp-alert': '',
-          'x-fitcloudeadminapp-params': '',
+          'x-fitcloudadminapp-alert': '',
+          'x-fitcloudadminapp-params': '',
         },
       });
       userManagementEdit.userAccount = { authorities: [] };

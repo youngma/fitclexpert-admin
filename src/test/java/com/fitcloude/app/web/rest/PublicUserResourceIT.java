@@ -1,14 +1,14 @@
-package com.fitcloude.app.web.rest;
+package com.fitcloud.app.web.rest;
 
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.hasItems;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.repository.UserRepository;
-import com.fitcloude.app.security.AuthoritiesConstants;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.repository.UserRepository;
+import com.fitcloud.app.security.AuthoritiesConstants;
 import javax.persistence.EntityManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.fitcloude.app.web.rest;
+package com.fitcloud.app.web.rest;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

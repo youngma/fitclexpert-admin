@@ -1,10 +1,10 @@
-package com.fitcloude.app.config;
+package com.fitcloud.app.config;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
 
-import com.fitcloude.app.service.MailService;
+import com.fitcloud.app.service.MailService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

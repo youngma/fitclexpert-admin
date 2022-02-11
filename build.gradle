@@ -24,7 +24,7 @@ plugins {
     //jhipster-needle-gradle-plugins - JHipster will add additional gradle plugins here
 }
 
-group = "com.fitcloude.app"
+group = "com.fitcloud.app"
 version = "0.0.1-SNAPSHOT"
 
 description = ""
@@ -83,7 +83,7 @@ eclipse {
 defaultTasks "bootRun"
 
 springBoot {
-    mainClassName = "com.fitcloude.app.FitcloudeAdminApp"
+    mainClassName = "com.fitcloud.app.fitcloudAdminApp"
 }
 
 test {
@@ -144,22 +144,22 @@ liquibase {
     activities {
         main {
             driver "com.mysql.cj.jdbc.Driver"
-            url "jdbc:mysql://localhost:3306/FitcloudeAdmin"
+            url "jdbc:mysql://localhost:3306/fitcloudAdmin"
             username "root"
             password ""
             changeLogFile "src/main/resources/config/liquibase/master.xml"
-            defaultSchemaName "FitcloudeAdmin"
+            defaultSchemaName "fitcloudAdmin"
             logLevel "debug"
             classpath "src/main/resources/"
         }
         diffLog {
             driver "com.mysql.cj.jdbc.Driver"
-            url "jdbc:mysql://localhost:3306/FitcloudeAdmin"
+            url "jdbc:mysql://localhost:3306/fitcloudAdmin"
             username "root"
             password ""
             changeLogFile project.ext.diffChangelogFile
-            referenceUrl "hibernate:spring:com.fitcloude.app.domain?dialect=org.hibernate.dialect.MySQL8Dialect&hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy"
-            defaultSchemaName "FitcloudeAdmin"
+            referenceUrl "hibernate:spring:com.fitcloud.app.domain?dialect=org.hibernate.dialect.MySQL8Dialect&hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy"
+            defaultSchemaName "fitcloudAdmin"
             logLevel "debug"
             classpath "$buildDir/classes/java/main"
         }

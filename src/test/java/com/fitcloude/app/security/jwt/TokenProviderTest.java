@@ -1,9 +1,9 @@
-package com.fitcloude.app.security.jwt;
+package com.fitcloud.app.security.jwt;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.fitcloude.app.management.SecurityMetersService;
-import com.fitcloude.app.security.AuthoritiesConstants;
+import com.fitcloud.app.management.SecurityMetersService;
+import com.fitcloud.app.security.AuthoritiesConstants;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;

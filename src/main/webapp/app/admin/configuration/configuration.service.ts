@@ -56,6 +56,6 @@ export default class ConfigurationService {
       }
     }
     // by default, use the default ApplicationContext Id
-    return res['contexts']['FitcloudeAdmin']['beans'];
+    return res['contexts']['fitcloudAdmin']['beans'];
   }
 }

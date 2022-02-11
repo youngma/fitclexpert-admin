@@ -1,6 +1,6 @@
-package com.fitcloude.app.config;
+package com.fitcloud.app.config;
 
-import static com.fitcloude.app.config.StaticResourcesWebConfiguration.*;
+import static com.fitcloud.app.config.StaticResourcesWebConfiguration.*;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 

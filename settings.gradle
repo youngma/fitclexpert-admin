@@ -16,4 +16,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "fitcloude-admin"
+rootProject.name = "fitcloud-admin"

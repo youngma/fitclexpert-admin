@@ -1,7 +1,7 @@
 {
   "generator-jhipster:7.5.0": {
     "promptValues": {
-      "packageName": "com.fitcloude.app",
+      "packageName": "com.fitcloud.app",
       "nativeLanguage": "ko"
     }
   }

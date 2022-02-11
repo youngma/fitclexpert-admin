@@ -1,4 +1,4 @@
-package com.fitcloude.app;
+package com.fitcloud.app;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.jupiter.api.extension.BeforeAllCallback;

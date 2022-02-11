@@ -12,9 +12,9 @@ redis-cli \
     --cluster-replicas 1 \
     --cluster-yes \
     --cluster create \
-        $(host fitcloudeadmin-redis|awk '{print $4}'):6379 \
-        $(host fitcloudeadmin-redis-1|awk '{print $4}'):6379 \
-        $(host fitcloudeadmin-redis-2|awk '{print $4}'):6379 \
-        $(host fitcloudeadmin-redis-3|awk '{print $4}'):6379 \
-        $(host fitcloudeadmin-redis-4|awk '{print $4}'):6379 \
-        $(host fitcloudeadmin-redis-5|awk '{print $4}'):6379
+        $(host fitcloudadmin-redis|awk '{print $4}'):6379 \
+        $(host fitcloudadmin-redis-1|awk '{print $4}'):6379 \
+        $(host fitcloudadmin-redis-2|awk '{print $4}'):6379 \
+        $(host fitcloudadmin-redis-3|awk '{print $4}'):6379 \
+        $(host fitcloudadmin-redis-4|awk '{print $4}'):6379 \
+        $(host fitcloudadmin-redis-5|awk '{print $4}'):6379

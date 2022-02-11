@@ -1,12 +1,12 @@
-package com.fitcloude.app.service;
+package com.fitcloud.app.service;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.config.Constants;
-import com.fitcloude.app.domain.User;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.config.Constants;
+import com.fitcloud.app.domain.User;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;

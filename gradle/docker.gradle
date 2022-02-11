@@ -3,7 +3,7 @@ jib {
         image = "eclipse-temurin:11-jre-focal"
     }
     to {
-        image = "fitcloudeadmin:latest"
+        image = "fitcloudadmin:latest"
     }
     container {
         entrypoint = ["bash", "-c", "/entrypoint.sh"]

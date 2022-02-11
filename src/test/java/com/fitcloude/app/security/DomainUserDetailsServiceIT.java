@@ -1,11 +1,11 @@
-package com.fitcloude.app.security;
+package com.fitcloud.app.security;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.repository.UserRepository;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.repository.UserRepository;
 import java.util.Locale;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;

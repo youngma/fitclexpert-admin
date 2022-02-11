@@ -1,22 +1,22 @@
-package com.fitcloude.app.web.rest;
+package com.fitcloud.app.web.rest;
 
-import static com.fitcloude.app.web.rest.AccountResourceIT.TEST_USER_LOGIN;
+import static com.fitcloud.app.web.rest.AccountResourceIT.TEST_USER_LOGIN;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.config.Constants;
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.repository.AuthorityRepository;
-import com.fitcloude.app.repository.UserRepository;
-import com.fitcloude.app.security.AuthoritiesConstants;
-import com.fitcloude.app.service.UserService;
-import com.fitcloude.app.service.dto.AdminUserDTO;
-import com.fitcloude.app.service.dto.PasswordChangeDTO;
-import com.fitcloude.app.service.dto.UserDTO;
-import com.fitcloude.app.web.rest.vm.KeyAndPasswordVM;
-import com.fitcloude.app.web.rest.vm.ManagedUserVM;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.config.Constants;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.repository.AuthorityRepository;
+import com.fitcloud.app.repository.UserRepository;
+import com.fitcloud.app.security.AuthoritiesConstants;
+import com.fitcloud.app.service.UserService;
+import com.fitcloud.app.service.dto.AdminUserDTO;
+import com.fitcloud.app.service.dto.PasswordChangeDTO;
+import com.fitcloud.app.service.dto.UserDTO;
+import com.fitcloud.app.web.rest.vm.KeyAndPasswordVM;
+import com.fitcloud.app.web.rest.vm.ManagedUserVM;
 import java.time.Instant;
 import java.util.*;
 import org.apache.commons.lang3.RandomStringUtils;

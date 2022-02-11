@@ -1,13 +1,13 @@
-package com.fitcloude.app.service;
+package com.fitcloud.app.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-import com.fitcloude.app.IntegrationTest;
-import com.fitcloude.app.config.Constants;
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.repository.UserRepository;
-import com.fitcloude.app.service.dto.AdminUserDTO;
+import com.fitcloud.app.IntegrationTest;
+import com.fitcloud.app.config.Constants;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.repository.UserRepository;
+import com.fitcloud.app.service.dto.AdminUserDTO;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

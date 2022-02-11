@@ -1,6 +1,6 @@
 {
-  "name": "FitcloudeAdmin",
-  "short_name": "FitcloudeAdmin",
+  "name": "fitcloudAdmin",
+  "short_name": "fitcloudAdmin",
   "icons": [
     {
       "src": "./content/images/jhipster_family_member_2_head-192.png",

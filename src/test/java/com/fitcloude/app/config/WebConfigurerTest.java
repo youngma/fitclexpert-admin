@@ -1,4 +1,4 @@
-package com.fitcloude.app.config;
+package com.fitcloud.app.config;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;

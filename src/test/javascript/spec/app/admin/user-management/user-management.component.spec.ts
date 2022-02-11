@@ -91,8 +91,8 @@ describe('UserManagement Component', () => {
       // GIVEN
       axiosStub.delete.resolves({
         headers: {
-          'x-fitcloudeadminapp-alert': '',
-          'x-fitcloudeadminapp-params': '',
+          'x-fitcloudadminapp-alert': '',
+          'x-fitcloudadminapp-params': '',
         },
       });
 

@@ -1,7 +1,7 @@
-package com.fitcloude.app;
+package com.fitcloud.app;
 
-import com.fitcloude.app.FitcloudeAdminApp;
-import com.fitcloude.app.RedisTestContainerExtension;
+import com.fitcloud.app.RedisTestContainerExtension;
+import com.fitcloud.app.fitcloudAdminApp;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@SpringBootTest(classes = FitcloudeAdminApp.class)
+@SpringBootTest(classes = fitcloudAdminApp.class)
 @ExtendWith(RedisTestContainerExtension.class)
 public @interface IntegrationTest {
 }

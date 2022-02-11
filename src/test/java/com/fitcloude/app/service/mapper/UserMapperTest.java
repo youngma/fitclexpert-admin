@@ -1,10 +1,10 @@
-package com.fitcloude.app.service.mapper;
+package com.fitcloud.app.service.mapper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.fitcloude.app.domain.User;
-import com.fitcloude.app.service.dto.AdminUserDTO;
-import com.fitcloude.app.service.dto.UserDTO;
+import com.fitcloud.app.domain.User;
+import com.fitcloud.app.service.dto.AdminUserDTO;
+import com.fitcloud.app.service.dto.UserDTO;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

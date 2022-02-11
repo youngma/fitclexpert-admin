@@ -1,4 +1,4 @@
-package com.fitcloude.app.repository.timezone;
+package com.fitcloud.app.repository.timezone;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
